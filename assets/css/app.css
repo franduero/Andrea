@@ -58,7 +58,7 @@
 
 .carousel__lista {
 	overflow: hidden;
-	height: 500px;
+	height: max-content;
 }
 
 .carousel__elemento {
@@ -66,7 +66,7 @@
 	padding: 2px;
 	}
 .carousel__elemento>img{
-	max-height: 50%;
+	max-height: 280px;
 	min-height: 50%;
 }
 
