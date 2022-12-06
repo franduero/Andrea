@@ -1,7 +1,7 @@
 #app{
     width: 100%;
-    /* min-height: calc(100vh - 100px); */
-    background-color: rgb(129, 198, 232);
+    min-height: calc(100vh - 100px);
+   /*  background-color: rgb(129, 198, 232); */
     margin-top: 50px;
     padding: 20px;
 }
@@ -17,7 +17,7 @@
  */
 .contenedor {
 	max-width: 100%;
-	margin: auto
+	margin: auto;
 	min-height: calc(100vh -100px);
 }
 
@@ -58,6 +58,7 @@
 
 .carousel__lista {
 	overflow: hidden;
+	height: 500px;
 }
 
 .carousel__elemento {
@@ -65,7 +66,8 @@
 	padding: 2px;
 	}
 .carousel__elemento>img{
-	max-height: 280px;
+	max-height: 50%;
+	min-height: 50%;
 }
 
 .carousel__indicadores .glider-dot {
@@ -97,6 +99,6 @@
 		width: 100%;
 	}
 	.carousel__elemento>img{
-		max-height: 280px;
+		max-height: 170px;
 	}
 }
