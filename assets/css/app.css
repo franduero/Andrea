@@ -1,6 +1,6 @@
 #app{
     width: 100%;
-    min-height: calc(100vh - 100px);
+    /* min-height: calc(100vh - 100px); */
     background-color: rgb(129, 198, 232);
     margin-top: 50px;
     padding: 20px;
@@ -30,16 +30,17 @@
 .carousel__siguiente {
 	position: absolute;
 	display: block;
-	width: 30px;
-	height: 30px;
+	width: 50px;
+	height: 50px;
 	border: none;
 	top: calc(50% - 35px);
 	cursor: pointer;
 	line-height: 30px;
 	text-align: center;
 	background: none;
-	color: red;
+	color: rgb(0, 0, 0);
 	opacity: 100%;
+	z-index: 1;
 }
 
 .carousel__anterior:hover,
@@ -48,11 +49,11 @@
 }
 
 .carousel__anterior {
-	left: -20px;
+	left: -30px;
 }
 
 .carousel__siguiente {
-	right: -20px;
+	right: -30px;
 }
 
 .carousel__lista {
@@ -61,6 +62,10 @@
 
 .carousel__elemento {
 	text-align: center;
+	padding: 2px;
+	}
+.carousel__elemento>img{
+	max-height: 280px;
 }
 
 .carousel__indicadores .glider-dot {
