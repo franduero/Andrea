@@ -14,8 +14,10 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    min-height: 100vh;
+    min-height: 0vh;
     background-size: cover;
+    background-color: rgb(129, 198, 232);
+
   }
   @media screen and (max-width: 700px), (max-height: 500px) {
     .wrapper {
@@ -375,6 +377,11 @@
     transform: scale(0.55);
     pointer-events: none;
     opacity: 0;
+  }
+
+  section{
+    background-color: rgb(129, 198, 232);
+    
   }
   
   
