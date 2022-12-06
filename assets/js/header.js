@@ -4,14 +4,12 @@ document.addEventListener("DOMContentLoaded", () => {
   const mobileMenu = document.getElementById("mobile-menu")
 
   openMenu.addEventListener("click", () => {
-    console.log("ABIERTO")
-    mobileMenu.style.height="auto"
+    mobileMenu.style.height="180px"
     openMenu.style.display="none"
     closeMenu.style.display="flex"
   });
 
   closeMenu.addEventListener("click", () => {
-    console.log("ABIERTO")
     mobileMenu.style.height="0"
     openMenu.style.display="flex"
     closeMenu.style.display="none"

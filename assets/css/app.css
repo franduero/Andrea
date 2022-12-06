@@ -96,4 +96,7 @@
 	.contenido-principal > * {
 		width: 100%;
 	}
+	.carousel__elemento>img{
+		max-height: 280px;
+	}
 }
