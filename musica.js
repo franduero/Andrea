@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", () => {
           {
             name: "Andy",
             artist: "Andrea",
-            cover: "./assets/img/IMG_0466.JPG",
+            cover: "./assets/img/IMG_0466.jpfg",
             source: "./assets/musica/ComeWhatMay.mp3",
             url: "https://www.youtube.com/watch?v=FV7KqBLCekk&list=PLWBWE9F13zAdCTrCw7eiq5TO9RdDyeaF2&index=10",
 
