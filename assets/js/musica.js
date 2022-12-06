@@ -1,5 +1,5 @@
-document.addEventListener("DOMContentLoaded", () =>{
-new Vue({
+document.addEventListener("DOMContentLoaded", () => {
+  new Vue({
     el: "#musica",
     data() {
       return {
@@ -13,10 +13,10 @@ new Vue({
           {
             name: "Andy",
             artist: "Andrea",
-            cover: "../img/IMG_0531.jpg",
-            source: "../music/ComeWhatMay.mp3",
+            cover: "../img/IMG_0466.JPG",
+            source: "",
             url: "https://www.youtube.com/watch?v=FV7KqBLCekk&list=PLWBWE9F13zAdCTrCw7eiq5TO9RdDyeaF2&index=10",
-            
+
           },
           {
             name: "Everybody Knows",
@@ -24,7 +24,7 @@ new Vue({
             cover: "https://raw.githubusercontent.com/muhammederdem/mini-player/master/img/2.jpg",
             source: "https://raw.githubusercontent.com/muhammederdem/mini-player/master/mp3/2.mp3",
             url: "https://www.youtube.com/watch?v=Lin-a2lTelg",
-            favorited: true
+
           },
           {
             name: "Extreme Ways",
@@ -32,7 +32,7 @@ new Vue({
             cover: "https://raw.githubusercontent.com/muhammederdem/mini-player/master/img/3.jpg",
             source: "https://raw.githubusercontent.com/muhammederdem/mini-player/master/mp3/3.mp3",
             url: "https://www.youtube.com/watch?v=ICjyAe9S54c",
-            favorited: false
+
           },
           {
             name: "Butterflies",
@@ -40,7 +40,7 @@ new Vue({
             cover: "https://raw.githubusercontent.com/muhammederdem/mini-player/master/img/4.jpg",
             source: "https://raw.githubusercontent.com/muhammederdem/mini-player/master/mp3/4.mp3",
             url: "https://www.youtube.com/watch?v=kYgGwWYOd9Y",
-            favorited: false
+
           },
           {
             name: "The Final Victory",
@@ -48,7 +48,7 @@ new Vue({
             cover: "https://raw.githubusercontent.com/muhammederdem/mini-player/master/img/5.jpg",
             source: "https://raw.githubusercontent.com/muhammederdem/mini-player/master/mp3/5.mp3",
             url: "https://www.youtube.com/watch?v=0WlpALnQdN8",
-            favorited: true
+
           },
           {
             name: "Genius ft. Sia, Diplo, Labrinth",
@@ -56,7 +56,7 @@ new Vue({
             cover: "https://raw.githubusercontent.com/muhammederdem/mini-player/master/img/6.jpg",
             source: "https://raw.githubusercontent.com/muhammederdem/mini-player/master/mp3/6.mp3",
             url: "https://www.youtube.com/watch?v=HhoATZ1Imtw",
-            favorited: false
+
           },
           {
             name: "The Comeback Kid",
@@ -64,7 +64,7 @@ new Vue({
             cover: "https://raw.githubusercontent.com/muhammederdem/mini-player/master/img/7.jpg",
             source: "https://raw.githubusercontent.com/muhammederdem/mini-player/master/mp3/7.mp3",
             url: "https://www.youtube.com/watch?v=me6aoX0wCV8",
-            favorited: true
+
           },
           {
             name: "Overdose",
@@ -72,7 +72,7 @@ new Vue({
             cover: "https://raw.githubusercontent.com/muhammederdem/mini-player/master/img/8.jpg",
             source: "https://raw.githubusercontent.com/muhammederdem/mini-player/master/mp3/8.mp3",
             url: "https://www.youtube.com/watch?v=00-Rl3Jlx-o",
-            favorited: false
+
           },
           {
             name: "Rag'n'Bone Man",
@@ -80,7 +80,7 @@ new Vue({
             cover: "https://raw.githubusercontent.com/muhammederdem/mini-player/master/img/9.jpg",
             source: "https://raw.githubusercontent.com/muhammederdem/mini-player/master/mp3/9.mp3",
             url: "https://www.youtube.com/watch?v=L3wKzyIN1yk",
-            favorited: false
+
           }
         ],
         currentTrack: null,
@@ -170,7 +170,7 @@ new Vue({
         this.audio.currentTime = 0;
         this.audio.src = this.currentTrack.source;
         setTimeout(() => {
-          if(this.isTimerPlaying) {
+          if (this.isTimerPlaying) {
             this.audio.play();
           } else {
             this.audio.pause();
@@ -188,25 +188,26 @@ new Vue({
       this.currentTrack = this.tracks[0];
       this.audio = new Audio();
       this.audio.src = this.currentTrack.source;
-      this.audio.ontimeupdate = function() {
+      this.audio.ontimeupdate = function () {
         vm.generateTime();
       };
-      this.audio.onloadedmetadata = function() {
+      this.audio.onloadedmetadata = function () {
         vm.generateTime();
       };
-      this.audio.onended = function() {
+      this.audio.onended = function () {
         vm.nextTrack();
         this.isTimerPlaying = true;
       };
-  
+
       // this is optional (for preload covers)
-      /* for (let index = 0; index < this.tracks.length; index++) {
-        const element = this.tracks[index];
-        let link = document.createElement('link');
-        link.rel = "prefetch";
-        link.href = element.cover;
-        link.as = "image"
-        document.head.appendChild(link)
-      } */
+      /*  for (let index = 0; index < this.tracks.length; index++) {
+         const element = this.tracks[index];
+         let link = document.createElement('link');
+         link.rel = "prefetch";
+         link.href = element.cover;
+         link.as = "image"
+         document.head.appendChild(link)
+       } */
     }
-  })});
+  })
+});
