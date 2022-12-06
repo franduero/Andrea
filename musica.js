@@ -13,8 +13,8 @@ document.addEventListener("DOMContentLoaded", () => {
           {
             name: "Andy",
             artist: "Andrea",
-            cover: "../img/IMG_0466.JPG",
-            source: "",
+            cover: "./assets/img/IMG_0466.jpg",
+            source: "./assets/musica/ComeWhatMay.mp3",
             url: "https://www.youtube.com/watch?v=FV7KqBLCekk&list=PLWBWE9F13zAdCTrCw7eiq5TO9RdDyeaF2&index=10",
 
           },
@@ -81,7 +81,7 @@ document.addEventListener("DOMContentLoaded", () => {
             source: "https://raw.githubusercontent.com/muhammederdem/mini-player/master/mp3/9.mp3",
             url: "https://www.youtube.com/watch?v=L3wKzyIN1yk",
 
-          }
+          } 
         ],
         currentTrack: null,
         currentTrackIndex: 0,
