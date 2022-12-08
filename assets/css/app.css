@@ -53,10 +53,16 @@
 
 .carousel__anterior {
 	left: -30px;
+	height: 90px;
+	
 }
 
 .carousel__siguiente {
 	right: -20px;
+	width: 30px;
+	height: 90px;
+	
+	
 }
 
 .carousel__lista {
@@ -86,6 +92,7 @@
 
 .carousel__indicadores .glider-dot:hover {
 	opacity: .5;
+
 }
 
 .carousel__indicadores .glider-dot.active {
