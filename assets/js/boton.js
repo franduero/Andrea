@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     button.style.left = randomX + "px";
     button.style.top = randomY + "px";
-    button.className = 'moveer'
+    button.className = 'moveer';
     
   });
 
