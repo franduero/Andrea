@@ -8,7 +8,7 @@ rgb(88, 55, 208);
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: cursive;
+    font-family: 'Pacifico', cursive;
 }
 
 body{
@@ -23,6 +23,7 @@ body{
 a{
     color: black;
     text-decoration: none;
+    font-family: 'Pacifico', cursive;
 }
 
 .colors{
