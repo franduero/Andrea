@@ -13,6 +13,8 @@ document.addEventListener("DOMContentLoaded", () => {
   var quitar2 = document.getElementById('footer')
 
 
+  quitar1.style.display = "none"
+
 
   button.addEventListener("click", function () {
     var randomX = Math.random() * (screenWidth - 100);
@@ -21,18 +23,27 @@ document.addEventListener("DOMContentLoaded", () => {
     button.style.left = randomX + "px";
     button.style.top = randomY + "px";
     button.className = 'moveer';
+    
   });
 
   quieto.addEventListener('click', function () {
     console.log('dasd')
     bottones.style.display='none'
+    quitar1.style.display = ""
+    
     limpiar();
+    añadir();
 
   });
   function limpiar() {
     quitar.classList.remove('fuera');
     quitar1.classList.remove('fuera');
     quitar2.classList.remove('fuera');
+
+
+  }
+  function añadir() {
+    quitar1.classList.add('App')
   }
 
 

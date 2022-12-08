@@ -4,6 +4,7 @@
    /*  background-color: rgb(129, 198, 232); */
     margin-top: 50px;
     padding: 20px;
+	
 }
 	
 /* body {
@@ -19,11 +20,13 @@
 	max-width: 100%;
 	margin: auto;
 	min-height: calc(100vh -100px);
+	
 }
 
 /* --- --- CAROUSEL --- --- */
 .carousel__contenedor {
 	position: relative;
+	
 }
 
 .carousel__anterior,
@@ -59,6 +62,7 @@
 .carousel__lista {
 	overflow: hidden;
 	height: max-content;
+	
 }
 
 .carousel__elemento {
