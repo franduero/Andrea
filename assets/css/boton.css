@@ -12,6 +12,10 @@
   
 }
 
+.bottoon>button {
+
+ font-family:none;
+}
 /*  button{
 position: absolute;
 } */
