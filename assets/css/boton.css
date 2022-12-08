@@ -11,6 +11,9 @@
   padding-top: calc(45vh);
   
 }
+.bottoon>button{
+  width: 50px;
+}
 /*  button{
 position: absolute;
 } */
