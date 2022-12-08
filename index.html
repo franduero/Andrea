@@ -32,10 +32,23 @@
   <!-- musica -->
   <script src="https://cdn.jsdelivr.net/npm/vue@2.6.10/dist/vue.js"></script>
   <script src="./musica.js"></script>
+  <!-- botton -->
+<link rel="stylesheet" href="./assets/css/boton.css">
+<script src="./assets/js/boton.js"></script>
+
+
 </head>
 
+
 <body>
-  <header id="header">
+  <div class="bottoon" id="botones">
+  
+    <i>Oficial</i><br>
+    <button id="move">mover</button>
+    <button id="noMove">No mover</button>
+
+</div>
+  <header class="fuera" id="header">
     <div id="desktop-header">
       <h1>ANDREA</h1>
       <nav id="desktop-menu">
@@ -61,7 +74,7 @@
       </ul>
     </nav>
   </header>
-  <section class="App" id="app">
+  <section class="App fuera" id="app">
     <div class="contenedor">
       <div class="carousel">
         <div class="carousel__contenedor">
@@ -246,7 +259,8 @@
   </section>
 
 
-  <footer id="footer"></footer>
+  <footer class="fuera" id="footer"></footer>
 </body>
+
 
 </html>
