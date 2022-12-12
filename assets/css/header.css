@@ -36,7 +36,7 @@
   height: 0;
   overflow: hidden;
   text-align: center;
-  background-color: rgb(125, 229, 237);
+  /* background-color: rgb(125, 229, 237); */
   z-index: 10;
   transition: 2s;
 }

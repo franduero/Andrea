@@ -1,10 +1,9 @@
 #app{
     width: 100%;
     min-height: calc(100vh - 100px);
-  
-    margin-top: 50px;
+  	margin-top: 50px;
     padding: 20px;
-	
+
 }
 	
 
@@ -80,6 +79,7 @@
 	opacity: 1;
 	border-radius: 0;
 	margin-top: 40px;
+	z-index: 1;
 }
 
 .carousel__indicadores .glider-dot:hover {

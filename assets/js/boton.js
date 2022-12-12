@@ -11,10 +11,10 @@ document.addEventListener("DOMContentLoaded", () => {
   var quitar = document.getElementById('header')
   var quitar1 = document.getElementById('app')
   var quitar2 = document.getElementById('footer')
-
+  var fondoo = document.getElementById('fondo1')
 
   quitar1.style.display = "none"
-
+  fondoo.style.display= 'none'
 
   button.addEventListener("click", function () {
     var randomX = Math.random() * (screenWidth - 100);
@@ -30,6 +30,7 @@ document.addEventListener("DOMContentLoaded", () => {
     console.log('dasd')
     bottones.style.display='none'
     quitar1.style.display = ""
+    fondoo.style.display= ''
     
     limpiar();
     añadir();
