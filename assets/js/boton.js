@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", () => {
   var quitar2 = document.getElementById('footer')
   var fondoo = document.getElementById('fondo1')
 
-  var countDownDate = new Date("Dec 31, 2022 20:00:00").getTime();
+  var countDownDate = new Date("Dec 31, 2022 22:00:00").getTime();
 
   quitar1.style.display = "none"
   fondoo.style.display= 'none'
