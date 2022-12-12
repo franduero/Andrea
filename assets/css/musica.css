@@ -216,9 +216,9 @@
   .player-controls__item.-xl:before {
     display: none;
   }
-  .player-controls__item.-favorite.active {
+ /*  .player-controls__item.-favorite.active {
     color: red;
-  }
+  } */
   
   [v-cloak] {
     display: none;

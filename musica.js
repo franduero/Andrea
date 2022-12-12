@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", () => {
         isTimerPlaying: false,
         tracks: [
           {
-            name: "Andy",
+            name: "Andrea",
             artist: "Andrea",
             cover: "./assets/img/IMG_0466.jpg",
             source: "./assets/musica/ComeWhatMay.mp3",
@@ -19,8 +19,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
           },
           {
-            name: "Everybody Knows",
-            artist: "Leonard Cohen",
+            name: "Andrea jejje",
+            artist: "Andrea jejje",
             cover: "https://raw.githubusercontent.com/muhammederdem/mini-player/master/img/2.jpg",
             source: "https://raw.githubusercontent.com/muhammederdem/mini-player/master/mp3/2.mp3",
             url: "https://www.youtube.com/watch?v=Lin-a2lTelg",
@@ -177,11 +177,11 @@ document.addEventListener("DOMContentLoaded", () => {
           }
         }, 300);
       },
-      favorite() {
+      /* favorite() {
         this.tracks[this.currentTrackIndex].favorited = !this.tracks[
           this.currentTrackIndex
         ].favorited;
-      }
+      } */
     },
     created() {
       let vm = this;

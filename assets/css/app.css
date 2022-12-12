@@ -1,21 +1,13 @@
 #app{
     width: 100%;
     min-height: calc(100vh - 100px);
-   /*  background-color: rgb(129, 198, 232); */
+  
     margin-top: 50px;
     padding: 20px;
 	
 }
 	
-/* body {
-	background: #1D1D1F;
-	color: #fff;
-	font-family: 'Montserrat', sans-serif;
-	min-height: 100vh;
-	display: flex;
-	align-items: center;
-}
- */
+
 .contenedor {
 	max-width: 100%;
 	margin: auto;
