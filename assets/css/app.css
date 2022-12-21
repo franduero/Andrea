@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #app{
     width: 100%;
     min-height: calc(100vh - 100px);
@@ -105,4 +106,113 @@
 	.carousel__elemento>img{
 		max-height: 170px;
 	}
+=======
+#app{
+    width: 100%;
+    min-height: calc(100vh - 100px);
+  	margin-top: 50px;
+    padding: 20px;
+
+}
+	
+
+.contenedor {
+	max-width: 100%;
+	margin: auto;
+	min-height: calc(100vh -100px);
+	
+}
+
+/* --- --- CAROUSEL --- --- */
+.carousel__contenedor {
+	position: relative;
+	
+}
+
+.carousel__anterior,
+.carousel__siguiente {
+	position: absolute;
+	display: block;
+	width: 45px;
+	height: 50px;
+	border: none;
+	top: calc(50% - 35px);
+	cursor: pointer;
+	line-height: 30px;
+	text-align: center;
+	background: none;
+	color: rgb(0, 0, 0);
+	opacity: 100%;
+	z-index: 1;
+}
+
+.carousel__anterior:hover,
+.carousel__siguiente:hover {
+	opacity: 100%;
+}
+
+.carousel__anterior {
+	left: -30px;
+	height: 90px;
+	
+}
+
+.carousel__siguiente {
+	right: -20px;
+	width: 30px;
+	height: 90px;
+	
+	
+}
+
+.carousel__lista {
+	overflow: hidden;
+	height: max-content;
+	
+}
+
+.carousel__elemento {
+	text-align: center;
+	padding: 2px;
+	}
+.carousel__elemento>img{
+	max-height: 280px;
+	min-height: 50%;
+}
+
+.carousel__indicadores .glider-dot {
+	display: block;
+	width: 30px;
+	height: 4px;
+	background: #fff;
+	opacity: 1;
+	border-radius: 0;
+	margin-top: 40px;
+	z-index: 1;
+}
+
+.carousel__indicadores .glider-dot:hover {
+	opacity: .5;
+
+}
+
+.carousel__indicadores .glider-dot.active {
+	opacity: 1;
+	background-color: black;
+}
+
+@media screen and (max-width: 800px) {
+	
+
+	.contenido-principal {
+		flex-direction: column;
+	}
+
+	.contenido-principal > * {
+		width: 100%;
+	}
+	.carousel__elemento>img{
+		max-height: 170px;
+	}
+>>>>>>> c41c609db9939af58df18f8ececce06922051dc8
 }
