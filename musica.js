@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", () => {
             name: "Andrea",
             artist: "Andrea",
             cover: "./assets/img/IMG_0466.jpg",
-            source: "./assets/musica/ComeWhatMay.mp3",
+            source: "https://github.com/franduero/Andrea/blob/Andrea/assets/musica/ComeWhatMay.mp3?raw=true",
             url: "https://www.youtube.com/watch?v=FV7KqBLCekk&list=PLWBWE9F13zAdCTrCw7eiq5TO9RdDyeaF2&index=10",
 
           },

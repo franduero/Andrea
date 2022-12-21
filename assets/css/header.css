@@ -6,6 +6,7 @@
   background-color: rgb(125, 229, 237);
   position: absolute;
   top: 0;
+  z-index: 2;
 }
 
 #desktop-header {

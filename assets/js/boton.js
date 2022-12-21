@@ -15,10 +15,11 @@ document.addEventListener("DOMContentLoaded", () => {
 
   
   quitar1.style.display = "none"
-  /* 
+  quitar2.style.display = "none"
+ 
   fondoo.style.display= 'none'
-  bottones.style.display="none"
-  
+  /* bottones.style.display="none" */
+  /*
   var countDownDate = new Date("Dec 31, 2022 22:00:00").getTime();
 // Update the count down every 1 second
 var x = setInterval(function() {
