@@ -8,19 +8,21 @@ document.addEventListener("DOMContentLoaded", () => {
   var screenHeight = window.innerHeight;
 
 
-  var quitar = document.getElementById('header')
-  var quitar1 = document.getElementById('app')
-  var quitar2 = document.getElementById('footer')
-  var fondoo = document.getElementById('fondo1')
-
+  var quitar = document.getElementById('header');
+  var quitar1 = document.getElementById('app');
+  var quitar2 = document.getElementById('footer');
+  var fondoo = document.getElementById('fondo1');
+  
+  var fondito = document.getElementById('fondo')
+  var noCanva = document.getElementById('canvas');
   
   quitar1.style.display = "none"
   quitar2.style.display = "none"
  
   fondoo.style.display= 'none'
- bottones.style.display="none" 
-  
-  var countDownDate = new Date("Dec 31, 2022 22:00:00").getTime();
+
+ /* bottones.style.display="none" 
+ var countDownDate = new Date("Dec 31, 2022 22:00:00").getTime();
 // Update the count down every 1 second
 var x = setInterval(function() {
 
@@ -48,7 +50,7 @@ var x = setInterval(function() {
     document.getElementById("demo").style.display='none'
   }
 }, 1000);
-
+  */
   button.addEventListener("click", function () {
     var randomX = Math.random() * (screenWidth - 100);
     var randomY = Math.random() * (screenHeight - 90);
@@ -64,6 +66,7 @@ var x = setInterval(function() {
     bottones.style.display='none'
     quitar1.style.display = ""
     fondoo.style.display= ''
+    
     
     limpiar();
     añadir();

@@ -12,10 +12,15 @@ rgb(88, 55, 208);
 }
 
 body{
-    min-height: calc(100vh - 100px);
+    min-height: calc(100vh - 900px);
     font-family: 'Pacifico', cursive;
-    background-color:lightskyblue ;
+     background-color:lightskyblue ;
+    z-index: 1;
+    margin: 0;
+    padding: 0%;
+
 }
+
 
 header{
     font-family: 'Pacifico', cursive;
