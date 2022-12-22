@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", () => {
             name: "Andrea jejje",
             artist: "Andrea jejje",
             cover: "./assets/img/IMG_0664.jpg",
-            source: "",
+            source: "https://github.com/franduero/Andrea/blob/Andrea/assets/musica/El%20Canto%20del%20Loco%20-%20La%20Suerte%20De%20Mi%20Vida.mp3?raw=true",
             url: "https://www.youtube.com/watch?v=hEtSAOkjKVI",
 
           },
