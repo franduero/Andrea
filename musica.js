@@ -33,12 +33,12 @@ document.addEventListener("DOMContentLoaded", () => {
             source: "https://github.com/franduero/Andrea/blob/Andrea/assets/musica/Carita%20Linda.mp3?raw=true",
             url: "https://www.youtube.com/watch?v=Uf6wKDueFO8",
 
-          },
+          }, 
           {
             name: "Quedate",
             artist: "<3",
             cover: "https://github.com/franduero/Andrea/blob/Andrea/assets/img/quedate.jpeg?raw=true",
-            source: "https://raw.githubusercontent.com/muhammederdem/mini-player/master/mp3/4.mp3",
+            source: "https://github.com/franduero/Andrea/blob/Andrea/assets/musica/QUEVEDO.mp3?raw=true",
             url: "https://www.youtube.com/watch?v=A_g3lMcWVy0",
 
           },
