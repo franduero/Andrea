@@ -21,7 +21,7 @@ document.addEventListener("DOMContentLoaded", () => {
  
   fondoo.style.display= 'none'
 
- /* bottones.style.display="none" 
+ bottones.style.display="none" 
  var countDownDate = new Date("Dec 31, 2022 22:00:00").getTime();
 // Update the count down every 1 second
 var x = setInterval(function() {
@@ -50,7 +50,7 @@ var x = setInterval(function() {
     document.getElementById("demo").style.display='none'
   }
 }, 1000);
-  */
+  
   button.addEventListener("click", function () {
     var randomX = Math.random() * (screenWidth - 100);
     var randomY = Math.random() * (screenHeight - 90);
