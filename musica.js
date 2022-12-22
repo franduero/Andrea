@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", () => {
         isTimerPlaying: false,
         tracks: [
           {
-            name: "Andrea",
+            name: "Papi",
             artist: "Andrea",
             cover: "https://github.com/franduero/Andrea/blob/Andrea/assets/img/IMG_0466.jpg?raw=true",
             source: "https://github.com/franduero/Andrea/blob/Andrea/assets/musica/ComeWhatMay.mp3?raw=true",
@@ -21,7 +21,7 @@ document.addEventListener("DOMContentLoaded", () => {
           {
             name: "Loca ",
             artist: "Canta",
-            cover: "https://github.com/franduero/Andrea/blob/Andrea/assets/img/IMG_0664.jpg?raw=true",
+            cover: "https://github.com/franduero/Andrea/blob/Andrea/assets/img/reyes.jpeg?raw=true    ",
             source: "https://github.com/franduero/Andrea/blob/Andrea/assets/musica/El%20Canto%20del%20Loco%20-%20La%20Suerte%20De%20Mi%20Vida.mp3?raw=true",
             url: "https://www.youtube.com/watch?v=hEtSAOkjKVI",
 
@@ -29,9 +29,9 @@ document.addEventListener("DOMContentLoaded", () => {
           {
             name: "Carita ",
             artist: "Linda",
-            cover: "https://raw.githubusercontent.com/muhammederdem/mini-player/master/img/3.jpg",
-            source: "https://raw.githubusercontent.com/muhammederdem/mini-player/master/mp3/3.mp3",
-            url: "https://www.youtube.com/watch?v=ICjyAe9S54c",
+            cover: "https://github.com/franduero/Andrea/blob/Andrea/assets/img/china.jpeg?raw=true",
+            source: "https://github.com/franduero/Andrea/blob/Andrea/assets/musica/Carita%20Linda.mp3?raw=true",
+            url: "https://www.youtube.com/watch?v=Uf6wKDueFO8",
 
           },
           {
