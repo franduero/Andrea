@@ -35,11 +35,11 @@ document.addEventListener("DOMContentLoaded", () => {
 
           },
           {
-            name: "Butterflies",
-            artist: "Sia",
-            cover: "https://raw.githubusercontent.com/muhammederdem/mini-player/master/img/4.jpg",
+            name: "Quedate",
+            artist: "<3",
+            cover: "https://github.com/franduero/Andrea/blob/Andrea/assets/img/quedate.jpeg?raw=true",
             source: "https://raw.githubusercontent.com/muhammederdem/mini-player/master/mp3/4.mp3",
-            url: "https://www.youtube.com/watch?v=kYgGwWYOd9Y",
+            url: "https://www.youtube.com/watch?v=A_g3lMcWVy0",
 
           },
           {
