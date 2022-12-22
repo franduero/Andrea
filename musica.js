@@ -21,9 +21,9 @@ document.addEventListener("DOMContentLoaded", () => {
           {
             name: "Andrea jejje",
             artist: "Andrea jejje",
-            cover: "https://raw.githubusercontent.com/muhammederdem/mini-player/master/img/2.jpg",
-            source: "https://raw.githubusercontent.com/muhammederdem/mini-player/master/mp3/2.mp3",
-            url: "https://www.youtube.com/watch?v=Lin-a2lTelg",
+            cover: "./assets/img/IMG_0664.jpg",
+            source: "",
+            url: "https://www.youtube.com/watch?v=hEtSAOkjKVI",
 
           },
           {
