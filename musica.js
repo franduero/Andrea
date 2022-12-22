@@ -41,7 +41,7 @@ document.addEventListener("DOMContentLoaded", () => {
             source: "https://github.com/franduero/Andrea/blob/Andrea/assets/musica/QUEVEDO.mp3?raw=true",
             url: "https://www.youtube.com/watch?v=A_g3lMcWVy0",
 
-          },
+          },/* 
           {
             name: "The Final Victory",
             artist: "Haggard",
@@ -81,7 +81,7 @@ document.addEventListener("DOMContentLoaded", () => {
             source: "https://raw.githubusercontent.com/muhammederdem/mini-player/master/mp3/9.mp3",
             url: "https://www.youtube.com/watch?v=L3wKzyIN1yk",
 
-          } 
+          }  */
         ],
         currentTrack: null,
         currentTrackIndex: 0,
