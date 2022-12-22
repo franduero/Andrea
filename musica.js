@@ -13,15 +13,15 @@ document.addEventListener("DOMContentLoaded", () => {
           {
             name: "Andrea",
             artist: "Andrea",
-            cover: "./assets/img/IMG_0466.jpg",
+            cover: "https://github.com/franduero/Andrea/blob/Andrea/assets/img/IMG_0466.jpg?raw=true",
             source: "https://github.com/franduero/Andrea/blob/Andrea/assets/musica/ComeWhatMay.mp3?raw=true",
             url: "https://www.youtube.com/watch?v=FV7KqBLCekk&list=PLWBWE9F13zAdCTrCw7eiq5TO9RdDyeaF2&index=10",
 
           },
           {
-            name: "Andrea jejje",
-            artist: "Andrea jejje",
-            cover: "./assets/img/IMG_0664.jpg",
+            name: "Loca ",
+            artist: "Canta",
+            cover: "https://github.com/franduero/Andrea/blob/Andrea/assets/img/IMG_0664.jpg?raw=true",
             source: "https://github.com/franduero/Andrea/blob/Andrea/assets/musica/El%20Canto%20del%20Loco%20-%20La%20Suerte%20De%20Mi%20Vida.mp3?raw=true",
             url: "https://www.youtube.com/watch?v=hEtSAOkjKVI",
 
