@@ -27,8 +27,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
           },
           {
-            name: "Extreme Ways",
-            artist: "Moby",
+            name: "Carita ",
+            artist: "Linda",
             cover: "https://raw.githubusercontent.com/muhammederdem/mini-player/master/img/3.jpg",
             source: "https://raw.githubusercontent.com/muhammederdem/mini-player/master/mp3/3.mp3",
             url: "https://www.youtube.com/watch?v=ICjyAe9S54c",
